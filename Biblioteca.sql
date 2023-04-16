@@ -84,3 +84,21 @@ INSERT INTO `usuario` (`nombre_usuario`, `edad`, `numero_cont`, `id_prestamo`) V
 ('Baby', 19, 356, 3),
 ('Acrilico', 58, 321, 4),
 ('Bomba', 12, 395, 5);
+
+UPDATE autor SET nombre = 'BOLI' WHERE id_autor = 1;
+UPDATE autor SET nombre = 'VERONICA' WHERE id_autor = 2;
+UPDATE autor SET nombre = 'JULIO' WHERE id_autor = 3;
+UPDATE autor SET nombre = 'ANDRES' WHERE id_autor = 4;
+UPDATE autor SET nombre = 'SAMUEL' WHERE id_autor = 5;
+
+UPDATE libro SET titulo = 'LA BOLA' WHERE id_libro = 1;
+UPDATE libro SET titulo = 'EL VIENTO' WHERE id_libro = 2;
+UPDATE libro SET titulo = 'LA ROCA' WHERE id_libro = 3;
+UPDATE libro SET titulo = 'EL RIO' WHERE id_libro = 4;
+UPDATE libro SET titulo = 'EL BEBE' WHERE id_libro = 5;
+
+UPDATE usuario SET nombre_usuario = 'JUAN BOLI' WHERE id_usuario = 1;
+UPDATE usuario SET nombre_usuario = 'JUAN KALIL' WHERE id_usuario= 2;
+UPDATE usuario SET nombre_usuario = 'JUAN TEBI' WHERE id_usuario = 3;
+UPDATE usuario SET nombre_usuario = 'JUAN MINO' WHERE id_usuario = 4;
+UPDATE usuario SET nombre_usuario = 'JUAN HADD' WHERE id_usuario = 5;
