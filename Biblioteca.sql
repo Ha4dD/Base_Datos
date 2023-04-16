@@ -102,3 +102,15 @@ UPDATE usuario SET nombre_usuario = 'JUAN KALIL' WHERE id_usuario= 2;
 UPDATE usuario SET nombre_usuario = 'JUAN TEBI' WHERE id_usuario = 3;
 UPDATE usuario SET nombre_usuario = 'JUAN MINO' WHERE id_usuario = 4;
 UPDATE usuario SET nombre_usuario = 'JUAN HADD' WHERE id_usuario = 5;
+
+DELETE FROM autor WHERE id_autor = 1;
+DELETE FROM autor WHERE id_autor = 2;
+DELETE FROM autor WHERE id_autor = 3;
+DELETE FROM autor WHERE id_autor = 4;
+DELETE FROM autor WHERE id_autor = 5;
+
+DELETE FROM libro WHERE id_libro = 1;
+DELETE FROM libro WHERE id_libro = 2;
+DELETE FROM libro WHERE id_libro = 3;
+DELETE FROM libro WHERE id_libro = 4;
+DELETE FROM libro WHERE id_libro = 5;
